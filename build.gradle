@@ -3,7 +3,9 @@ plugins {
 }
 
 group 'com.github.birem'
-version '0.1-init'
+version '0.3-fix'
+
+compileJava.options.encoding = 'UTF-8'
 
 repositories {
     maven {
@@ -17,6 +19,10 @@ repositories {
     }
 
     mavenCentral()
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
 }
 
 dependencies {

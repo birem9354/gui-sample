@@ -1,0 +1,4 @@
+com/github/birem/Main.java
+ com.github.birem.Main
+com/github/birem/command/CreateInventory.java
+ com.github.birem.command.CreateInventory

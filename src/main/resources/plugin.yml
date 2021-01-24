@@ -1,0 +1,8 @@
+name: gui-sample
+main: com.github.birem.Main
+api-version: '1.16'
+version: 0.1-init
+command:
+  gui:
+    description: An show gui for players
+    using: /gui
